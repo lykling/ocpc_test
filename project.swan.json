@@ -10,6 +10,9 @@
         "packageId": 394627
     },
     "projectname": "ocpc_test",
+    "publish": {
+        "version": "1.0.1.0"
+    },
     "setting": {
         "urlCheck": false
     },
