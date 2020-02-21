@@ -32,7 +32,7 @@ Page({
         const cvtype = Number(e.detail.value.cvtype);
         if (!isNaN(cvtype) && cvtype > 0) {
             swan.request({
-                url: 'http://fclog.baidu.com/log/test',
+                url: 'https://fclog.baidu.com/log/test',
                 method: 'POST',
                 data: '{"actid": "xxx", "item": "candies", "amount": 20}',
                 header: {
@@ -49,7 +49,7 @@ Page({
                 },
                 fail: err => {
                     swan.showToast({
-                        title: "服务异常"
+                        title: `服务异常:${err}`
                     });
                 }
             });
