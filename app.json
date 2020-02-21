@@ -1,7 +1,8 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/p1/p1"
+        "pages/p1/p1",
+        "pages/p2/p2"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",

@@ -8,5 +8,9 @@
         <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
         </view>
+        <view class="nav">
+            <navigator class="nav-item" url="/pages/p1/p1">表单</navigator>
+            <navigator class="nav-item" url="/pages/p2/p2">点击</navigator>
+        </view>
     </view>
 </view>

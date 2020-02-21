@@ -6,14 +6,17 @@
         }
     },
     "host": "baiduboxapp",
+    "preview": {
+        "packageId": 394181
+    },
     "projectname": "ocpc_test",
     "setting": {
         "urlCheck": false
     },
     "swan": {
         "baiduboxapp": {
-            "swanJsVersion": "3.150.255-rc",
-            "extensionJsVersion": "1.10.2"
+            "extensionJsVersion": "1.10.2",
+            "swanJsVersion": "3.150.255-rc"
         }
     }
 }
