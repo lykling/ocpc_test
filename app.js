@@ -5,6 +5,8 @@
 
 /* globals swan */
 
+import agl from 'angelia-swan';
+agl.init();
 App({
     onLaunch(options) {
         // do something when launch
@@ -22,8 +24,11 @@ App({
             });
         }
     },
-    onShow(options) {
+    onShow(evt) {
         // do something when show
+        swan.showToast({
+            title: `bdvid: ${(evt.query.bdVid || '').slice(0, 8)}`
+        });
     },
     onHide() {
         // do something when hide
