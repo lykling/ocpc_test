@@ -1,0 +1,4 @@
+<view class="container">
+    <input name=cvtype />
+    <button>submit</button>
+</view>

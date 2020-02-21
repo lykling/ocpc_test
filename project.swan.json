@@ -1,0 +1,19 @@
+{
+    "appid": "11809120",
+    "compilation-args": {
+        "common": {
+            "enhance": true
+        }
+    },
+    "host": "baiduboxapp",
+    "projectname": "ocpc_test",
+    "setting": {
+        "urlCheck": false
+    },
+    "swan": {
+        "baiduboxapp": {
+            "extensionJsVersion": "1.10.2",
+            "swanJsVersion": "3.150.255-rc"
+        }
+    }
+}
