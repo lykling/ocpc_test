@@ -26,4 +26,10 @@ Page({
     onShareAppMessage: function () {
         // 用户点击右上角转发
     }
+    formSubmit: function (e) {
+        console.log(`submitting form: ${e.detail}`);
+    }
+    formReset: function () {
+        console.log('reset form');
+    }
 });

@@ -1,4 +1,6 @@
 <view class="container">
-    <input name=cvtype />
-    <button>submit</button>
+    <form bindsubmit="formSubmit">
+        <input name=cvtype />
+        <button form-type="submit">submit</button>
+    </form>
 </view>
