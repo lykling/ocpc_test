@@ -11,6 +11,7 @@
         <view class="nav">
             <navigator class="nav-item" url="/pages/p1/p1">表单</navigator>
             <navigator class="nav-item" url="/pages/p2/p2">点击</navigator>
+            <navigator class="nav-item" url="/pages/p3/p3">其它</navigator>
         </view>
     </view>
 </view>

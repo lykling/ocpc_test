@@ -10,3 +10,12 @@
     padding: 200rpx 0;
     box-sizing: border-box;
 }
+.page-title {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100rpx;
+    line-height: 100rpx;
+    padding: 0 20rpx;
+}
