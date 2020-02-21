@@ -1,3 +1,4 @@
+import agl from 'angelia-swan';
 Page({
     data: {
 
@@ -28,6 +29,36 @@ Page({
     },
     formSubmit: function (e) {
         console.log(`submitting form: ${JSON.stringify(e.detail.value, null, 4)}`);
+        const cvtype = Number(e.detail.value.cvtype);
+        if (!isNaN(cvtype)) {
+            swan.request({
+                url: 'http://fclog.baidu.com/log/test',
+                method: 'POST',
+                data: '{"actid": "xxx", "item": "candies", "amount": 20}',
+                header: {
+                    'Content-Type': 'application/json; charset=utf-8'
+                },
+                success: res => {
+                    // 在请求成功的回调方法里回传转化数据
+                    agl.log({
+                        convertType: cvtype
+                    });
+                    swan.showToast({
+                        title: `转化成功: ${cvtype}`
+                    })
+                },
+                fail: err => {
+                    swan.showToast({
+                        title: "服务异常"
+                    });
+                }
+            });
+        }
+        else {
+            swan.showToast({
+                title: '请输入有效的转化类型'
+            });
+        }
     },
     formReset: function () {
         console.log('reset form');
