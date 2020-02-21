@@ -1,0 +1,22 @@
+{
+  "name": "ocpc_test",
+  "version": "1.0.0",
+  "description": "开发者工具新建工程,生成demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lykling/ocpc_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lykling/ocpc_test/issues"
+  },
+  "homepage": "https://github.com/lykling/ocpc_test#readme",
+  "dependencies": {
+    "angelia-swan": "0.0.10"
+  }
+}
