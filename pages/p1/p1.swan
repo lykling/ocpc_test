@@ -1,6 +1,8 @@
 <view class="container">
-    <form bindsubmit="formSubmit">
-        <input name=cvtype />
-        <button form-type="submit">submit</button>
+    <form class="convert" bindsubmit="formSubmit">
+        <view class="field">
+            <label>转化类型：</label><input class="" name=cvtype />
+        </view>
+        <button class="btn" form-type="submit">submit</button>
     </form>
 </view>

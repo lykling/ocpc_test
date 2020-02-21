@@ -30,7 +30,7 @@ Page({
     formSubmit: function (e) {
         console.log(`submitting form: ${JSON.stringify(e.detail.value, null, 4)}`);
         const cvtype = Number(e.detail.value.cvtype);
-        if (!isNaN(cvtype)) {
+        if (!isNaN(cvtype) && cvtype > 0) {
             swan.request({
                 url: 'http://fclog.baidu.com/log/test',
                 method: 'POST',
@@ -56,7 +56,7 @@ Page({
         }
         else {
             swan.showToast({
-                title: '请输入有效的转化类型'
+                title: '无效的转化类型'
             });
         }
     },
