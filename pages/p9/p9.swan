@@ -1,0 +1,13 @@
+<view class="container">
+    <text class="page-title">页面9</text>
+    <view class="btns">
+        <button type="default" class="btn" data-agl-cvt="6" bindtap="convert">6</button>
+        <button type="default" class="btn" data-agl-cvt="7" bindtap="convert">7</button>
+        <button type="default" class="btn" data-agl-cvt="6.3" bindtap="convert">6.3</button>
+        <button type="default" class="btn" data-agl-cvt="-1" bindtap="convert">-1</button>
+        <button type="default" class="btn" data-agl-cvt="19" bindtap="convert">19</button>
+        <button type="default" class="btn" data-agl-cvt="2" bindtap="convert">2</button>
+        <button type="default" class="btn" data-agl-cvt="1" bindtap="convert">1</button>
+        <button type="default" class="btn" data-agl-cvt="41" bindtap="convert">41</button>
+    </view>
+</view>

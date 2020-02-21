@@ -1,0 +1,13 @@
+.field {
+    display: flex;
+    direction: row;
+    justify-content: start;
+}
+.field input {
+    border: solid rgb(163, 170, 150) 1px;
+    width: 400rpx;
+}
+.convert .btn {
+    margin-top: 20rpx;
+    background-color:skyblue;
+}

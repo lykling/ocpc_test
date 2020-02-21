@@ -3,7 +3,13 @@
         "pages/index/index",
         "pages/p1/p1",
         "pages/p2/p2",
-        "pages/p3/p3"
+        "pages/p3/p3",
+        "pages/p4/p4",
+        "pages/p5/p5",
+        "pages/p6/p6",
+        "pages/p7/p7",
+        "pages/p8/p8",
+        "pages/p9/p9"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",
