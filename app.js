@@ -27,7 +27,7 @@ App({
     onShow(evt) {
         // do something when show
         swan.showToast({
-            title: `bdvid: ${(evt.query.bdVid || '').slice(0, 8)}`
+            title: `bdvid: ${(evt.query.bd_vid || '').slice(0, 8)}`
         });
     },
     onHide() {
